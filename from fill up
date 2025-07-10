@@ -1,0 +1,164 @@
+THIS IS FROM FILL UP !
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <title>চুক্তিপত্র</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Noto Sans Bengali', sans-serif;
+      padding: 40px;
+      background: #000;
+      color: #fff;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .title {
+      text-align: center;
+      margin: 30px 0;
+      font-weight: bold;
+      font-size: 24px;
+      text-decoration: underline;
+    }
+
+    .info-section {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .column {
+      width: 48%;
+      min-width: 300px;
+      line-height: 2;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+      color: #ddd;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 14px;
+      border: 1px solid #444;
+      border-radius: 4px;
+      font-family: inherit;
+      background-color: #111;
+      color: #fff;
+    }
+
+    .body-text {
+      margin-top: 30px;
+      font-size: 16px;
+      line-height: 2;
+      color: #eee;
+    }
+
+    .footer {
+      margin-top: 50px;
+      font-size: 14px;
+      border-top: 1px solid #555;
+      padding-top: 10px;
+      text-align: center;
+      color: #aaa;
+    }
+
+    button {
+      margin-top: 30px;
+      padding: 12px 24px;
+      background-color: #fff;
+      color: #000;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      display: block;
+      margin-left: auto;
+    }    
+
+  </style>
+</head>
+<body>
+ <img src="Untitled design.png" alt="me" height="100px"margin>
+  <div class="header">
+    <div>
+        
+
+      <strong>NUR INTERNATIONAL BD</strong><br>
+       Govt. Approved Travels & Tours
+      
+    </div>
+    <div>
+      তারিখঃ <input type="date" name="date" required>
+    </div>
+  </div>
+
+  <h2 class="title">চুক্তিপত্র</h2>
+
+  <form>
+    <div class="info-section">
+      <div class="column">
+        <strong>১ম পক্ষ:</strong><br>
+        <label>নাম:</label>
+        <input type="text" name="party1_name" required>
+
+        <label>জাতীয় পরিচয়পত্র নম্বর:</label>
+        <input type="text" name="party1_nid" required>
+
+        <label>ঠিকানা:</label>
+        <input type="text" name="party1_address" required>
+
+        <label>মোবাইল নম্বর:</label>
+        <input type="text" name="party1_mobile" required>
+      </div>
+
+      <div class="column">
+        <strong>২য় পক্ষ:</strong><br>
+        <label>নাম:</label>
+        <input type="text" name="party2_name" required>
+
+        <label>পরিচয়পত্র নম্বর:</label>
+        <input type="text" name="party2_nid" required>
+
+        <label>পিতার নাম:</label>
+        <input type="text" name="father_name" required>
+
+        <label>মায়ের নাম:</label>
+        <input type="text" name="mother_name" required>
+
+        <label>ঠিকানা:</label>
+        <input type="text" name="party2_address" required>
+
+        <label>মোবাইল নম্বর:</label>
+        <input type="text" name="party2_mobile" required>
+      </div>
+    </div>
+
+    <div class="body-text">
+      আমি ২য় পক্ষ <strong><input type="text" name="party2_confirm_name" placeholder="আপনার নাম লিখুন" required></strong>, ১ম পক্ষের অফিসে বিদেশের ভিসা প্রসেসিং-এর কাজ করার আগ্রহ প্রকাশ করিলাম। আমরা উভয় পক্ষের আলোচনার সাপেক্ষে এবং নিম্নলিখিত শর্তাবলীর ভিত্তিতে এই চুক্তিপত্র সম্পাদন করিলাম এবং উভয়ের সম্মতিতে গ্রহণ করিলাম।
+    </div>
+
+    <button type="submit">সাবমিট করুন</button>
+  </form>
+
+  <div class="footer">
+   NUR INTERNATIONAL BD<br>
+    ☎ + pls note this | 📱 +880 1729992525<br>
+    ✉️ pls note this @gmail.com | 🌐 facebook.com/pls note this
+  </div>
+
+</body>
+</html>
