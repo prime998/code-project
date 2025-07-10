@@ -1,0 +1,88 @@
+THIS IS A HOME 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NUR | home</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    #particles-js {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: #0f0f0f;
+      z-index: -1;
+    }
+    .content {
+      position: relative;
+      z-index: 1;
+      color: white;
+      text-align: center;
+      padding-top: 20%;
+      font-size: 2rem;
+      font-family: sans-serif;
+    }
+    /* Button style */
+    .content button {
+      margin-top: 20px;
+      padding: 10px 30px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: #1e90ff;
+      color: white;
+      transition: background-color 0.3s ease;
+    }
+    .content button:hover {
+      background-color: #0b63c5;
+    }
+  </style>
+</head>
+<body>
+  <div id="particles-js"></div>
+  <div class="content">
+    WELCOME TO NUR INTERNATIONAL BD
+    <br>
+    <a href="http://127.0.0.1:5500/index.html">REGISTER</a>
+  </div>
+  
+
+  <!-- CDN for particles.js -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": {
+          "value": 80,
+          "density": {
+            "enable": true,
+            "value_area": 800
+          }
+        },
+        "color": {
+          "value": "#ffffff"
+        },
+        "shape": {
+          "type": "circle"
+        },
+        "opacity": {
+          "value": 0.5
+        },
+        "size": {
+          "value": 3
+        },
+        "move": {
+          "enable": true,
+          "speed": 2
+        }
+      }
+    });
+  </script>
+</body>
+</html>
